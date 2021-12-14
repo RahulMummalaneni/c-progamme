@@ -1,14 +1,25 @@
 #include<stdio.h>
 main()
 {
-	char z;
-	scanf("%c",&z);
-	if (z=='a' || z=='e' || z=='i' || z=='o' || z=='u') 
+	char a;
+	printf("include a number");
+	scanf("%d",&a);
+	switch(a)
 	{
-		printf("char is vowel");
+		case1:printf("monday");
+			break;
+		case2:printf("tuesday");
+			break;
+		case3:printf("wednesday");
+			break;
+		case4:printf("thursday");
+			break;
+		case5:printf("friday");
+			break;
+		case6:printf("saturday");
+			break;
+		case7:printf("sunday");
+			break;
+		default:printf("valid");
 	}
-	else
-	{
-		printf("char is not vowel");
-	}y
 }
